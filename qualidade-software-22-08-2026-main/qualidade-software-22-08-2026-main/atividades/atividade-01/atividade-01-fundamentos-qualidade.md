@@ -5,19 +5,19 @@
 ## 1. Identificação
 
 **Turma:** ADS5M26-2C
-**Equipe:** Alessandro e Ramon.  
-**Data:** [22/08/2026]
+**Equipe:** Alessandro e Ramon.
+**Data:** 22/08/2026
 
 ### Integrantes
 
-|           Nome           |     Usuário no GitHub    |
-|--------------------------|--------------------------|
+| Nome                     | Usuário no GitHub      |
+| ------------------------ | ---------------------- |
 | Alessandro Reis da Silva | @AlessandroReisDaSilva |
-|      Ramon nogueira      |         @Ramonnogueira83         |
+| Ramon Nogueira           | @Ramonnogueira83       |
 
 **Elemento de Competência:** Compreender os fundamentos de qualidade de software e sua aplicação no desenvolvimento de sistemas.
 
-**Aplicação:** <https://local-eats-unisenac.vercel.app/>
+**Aplicação:** https://local-eats-unisenac.vercel.app/
 
 ---
 
@@ -25,19 +25,18 @@
 
 ### 2.1 Necessidades explícitas e implícitas
 
-|    Tipo   |                             Necessidade                        | Interessado |                                             Consequência se não for atendida                                                        |
-|-----------|----------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Explícita |                        Fazer pedido                            |   Usuário   |                                              Não conseguira fazer pedidos                                                           |
-| Explícita |             Favoritar e desfavoritar restaurantes              |   Usuário   |                               Não conseguira colocar nos meu favoritos e visualiza-los                                              |
-| Implícita | Favoritar e desfavoritar restaurantes na página do restaurante |   Usuário   |   Ao salvar o restaurante como favorito, não é possível desfazer a ação pelo mesmo botão, somente indo até a pagina meus favoritos, isso prejudica a experiencia do usuário  |
-| Implícita | Mostrar quantos usuários salvaram aquele restaurante           |  Usuário/Restaurante |  Para o usuário fica melhor, pois consegue ver quantos clientes recomendam ou quantos aprovam aquele restaurante. Já pelo lado do restaurante, os proprietarios conseguem saber, como está a imagem publica de seu restaurante dentro do aplicativo |
+| Tipo      | Necessidade                                                                                                                 | Interessado           | Consequência se não for atendida                                                                                                                                                               |
+| --------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Explícita | Permitir que o usuário faça pedidos.                                                                                        | Usuário               | O usuário não conseguirá realizar pedidos pelo sistema.                                                                                                                                        |
+| Explícita | Permitir que o usuário favorite e desfavorite restaurantes.                                                                 | Usuário               | O usuário não conseguirá adicionar restaurantes aos seus favoritos ou removê-los posteriormente.                                                                                               |
+| Implícita | Permitir que o usuário favorite e desfavorite restaurantes de forma simples e consistente na própria página do restaurante. | Usuário               | O usuário poderá ter dificuldade para desfazer uma ação realizada anteriormente, sendo necessário acessar outra página para remover o restaurante dos favoritos, prejudicando sua experiência. |
+| Implícita | Apresentar informações claras que auxiliem o usuário na escolha de um restaurante.                                          | Usuário e restaurante | O usuário poderá ter dificuldade para escolher um restaurante e o estabelecimento poderá ter sua apresentação prejudicada dentro da aplicação.                                                 |
 
 ### 2.2 Questão sobre os fundamentos da qualidade
 
 **Um sistema que implementa todas as funcionalidades explicitamente solicitadas pode, ainda assim, apresentar baixa qualidade? Justifiquem utilizando pelo menos uma necessidade implícita identificada pela equipe.**
 
-[Resposta da equipe em até cinco linhas.]
-Favoritar e desfavoritar possui um problema que ao favoritar na página do restaurante, onde ao interagir com o botão de favoritar, favoritara, mas ao fazer a mesma ação não desfavoritara o restaurante na página dele, fazendo o cliente ir aos meus favoritos. Deixando o sistema de favoritos menos fluido e mais desconfortável para o cliente.
+Sim. Um sistema pode implementar todas as funcionalidades solicitadas e ainda apresentar problemas de qualidade. No LocalEats, por exemplo, é possível favoritar um restaurante pela sua página, porém não é possível desfavoritá-lo pelo mesmo botão na página do restaurante. Para remover o restaurante dos favoritos, é necessário acessar a página de favoritos, tornando a utilização menos fluida e prejudicando a experiência do usuário.
 
 ---
 
@@ -45,12 +44,10 @@ Favoritar e desfavoritar possui um problema que ao favoritar na página do resta
 
 > Cada integrante deve explorar uma funcionalidade, realizando uma utilização esperada e uma utilização alternativa, inválida ou incompleta. Acrescentem ou removam linhas conforme o número de integrantes.
 
-| Integrante | Funcionalidade | O que foi realizado | O que foi observado | Evidência |
-|-------------|----------------|---------------------|---------------------|-----------|
-| Alessandro Reis da Silva | Fazer pedido | Foi feito o pedido esperando que o cliente aperte finalizar pedido | Ao cliente fazer o pedido o pedido vai na espera da conformação do cliente, depois de confirmar, o pedido é registrado nos meus pedidos no histórico | [ver evidência](qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Pedido.png) |
-| Alessandro Reis da Silva | Meus pedidos | Visualizar o histórico de pedidos | Carregar os históricos de pedidos | [ver evidência](qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Meus_Pedidos.png) |
-| Alessandro Reis da Silva | Favoritos | Favoritar e desfavoritar pela página do restaurante e remover dos favoritos o restaurante pela página meus favoritos | Ao salvar o restaurante como favorito, não é possível desfazer a ação pelo mesmo botão, somente indo até a pagina meus favoritos. | [ver evidência](https://github.com/RamonNogueira83/Qualidade-de-software/raw/refs/heads/main/qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Favoritar.mkv) |
-| Ramon Nogueira | Buscar por culinária | Mostrar todos os restaurantes com a culinária que foi pesquisada pelo usuário, e mostrar as melhores avaliadas em primeiro | ao pesquisar pela culinária desejada o sistema não retornou o resultado esperado, por mais que tenha o filtro de pesquisa, é importante o funcionamento da barra de pesquisa. | [ver evidência](evidencias/Pesquisa-de-estilo-culinario.png) |
+| Integrante               | Funcionalidade       | O que foi realizado                                                                                                                                                                                                                                             | O que foi observado                                                                                                                                                                                              | Evidência                                                    |
+| ------------------------ | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Alessandro Reis da Silva | Favoritos            | Foi realizado o processo de favoritar um restaurante pela página do restaurante e, posteriormente, foi realizada uma tentativa de desfavoritar o mesmo restaurante pela própria página. Também foi realizada a remoção do restaurante pela página de favoritos. | Ao salvar o restaurante como favorito pela página do restaurante, não foi possível desfazer a ação pelo mesmo botão. Para remover o restaurante dos favoritos, foi necessário acessar a página de favoritos.     | [ver evidência](Evidencias/Favoritar.mkv)                    |
+| Ramon Nogueira           | Buscar por culinária | Foi realizada uma pesquisa utilizando uma culinária desejada por meio da barra de pesquisa. Também foi utilizado o filtro de culinária disponível na aplicação para comparar os resultados.                                                                     | Ao pesquisar pela culinária desejada utilizando a barra de pesquisa, o sistema não retornou o resultado esperado. O comportamento observado foi diferente do resultado obtido ao utilizar o filtro de culinária. | [ver evidência](Evidencias/Pesquisa-de-estilo-culinario.png) |
 
 ---
 
@@ -58,22 +55,20 @@ Favoritar e desfavoritar possui um problema que ao favoritar na página do resta
 
 > Cada integrante deve formular um requisito de qualidade relacionado à mesma funcionalidade explorada na Tarefa 2. Acrescentem ou removam linhas conforme o número de integrantes.
 
-| Integrante | Requisito de Qualidade | Característica ou subcaracterística | Justificativa | Como avaliar |
-|------------|------------------------|-------------------------------------|---------------|--------------|
-|  Alessandro Reis da Silva | Sistema de favoritos fluido | Usabilidade e registro | Melhorar a qualidade do sistema | Comparei o sistema de favoritos com as outras plataformas |
-|  Alessandro Reis da Silva| funcionamento de fazer e finalizar pedido | Usabilidade e registro | Melhorar a qualidade do sistema. | Avalie como funciona os pedidos. |
-| Ramon Nogueira | O sistema deve apresentar os resultados da pesquisa de restaurantes de forma clara, permitindo que o usuário compreenda facilmente quando existem resultados e quando não existem resultados correspondentes. | Usabilidade — capacidade de reconhecimento da adequação | A pesquisa é utilizada para localizar restaurantes por especialidade ou localização. O usuário precisa compreender facilmente o resultado obtido após realizar uma pesquisa. | Realizar pesquisas com termos válidos, inválidos e sem correspondência. Observar se os resultados apresentados são claros e se é possível identificar facilmente quando uma pesquisa não encontrou resultados. |
-| Ramon Nogueira | O sistema deve manter os dados do pedido corretamente durante as etapas de seleção, confirmação e finalização, evitando alterações ou perda das informações selecionadas pelo usuário. | Confiabilidade — tolerância a falhas | Durante a realização de um pedido, o usuário espera que os itens selecionados e as informações da operação sejam mantidos corretamente até sua finalização. | Realizar um pedido selecionando diferentes itens e avançar pelas etapas até a finalização. Comparar os itens e informações apresentados em cada etapa e verificar se permanecem consistentes. |
+| Integrante               | Requisito de Qualidade                                                                                                                                                                                           | Característica ou subcaracterística      | Justificativa                                                                                                                                                                                                                                                                                                          | Como avaliar                                                                                                                                                                                                                                                                   |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Alessandro Reis da Silva | O sistema deve permitir que o usuário adicione e remova restaurantes dos favoritos de forma simples e consistente, permitindo realizar a ação de favoritar ou desfavoritar diretamente na página do restaurante. | Usabilidade — operabilidade              | A funcionalidade de favoritos deve permitir que o usuário controle facilmente o estado do restaurante. Durante a exploração, foi observado que era possível favoritar o restaurante pela página do restaurante, mas não era possível desfazer a ação pelo mesmo local, sendo necessário acessar a página de favoritos. | Favoritar um restaurante pela página do restaurante e, em seguida, tentar desfavoritá-lo pelo mesmo local. Observar se a ação pode ser realizada diretamente e comparar a quantidade de etapas necessárias para adicionar e remover o favorito.                                |
+| Ramon Nogueira           | O sistema deve apresentar resultados de pesquisa compatíveis com a culinária ou localização informada pelo usuário.                                                                                              | Adequação funcional — correção funcional | A pesquisa é utilizada para localizar restaurantes de acordo com os critérios informados pelo usuário. Durante a exploração, foi observado que a pesquisa pela barra de pesquisa não apresentou o resultado esperado em comparação com o filtro de culinária.                                                          | Realizar pesquisas utilizando diferentes culinárias e localizações e comparar os resultados apresentados com os critérios informados. Também pode ser realizada uma comparação entre os resultados da barra de pesquisa e os resultados obtidos pelos filtros correspondentes. |
 
 ---
 
 ## 5. Uso de inteligência artificial
 
-**Ferramenta utilizada:**  
-[Informar a ferramenta ou registrar “não utilizada”.]
+**Ferramenta utilizada:**
+ChatGPT.
 
-**Como foi utilizada:**  
-[Descrever brevemente.]
+**Como foi utilizada:**
+A ferramenta foi utilizada como apoio para organizar as informações, revisar a estrutura do documento.
 
-**Como as respostas foram verificadas:**  
-[Descrever brevemente.]
+**Como as respostas foram verificadas:**
+As sugestões foram comparadas com as orientações da atividade e verificadas pelos integrantes durante a exploração da aplicação LocalEats.
