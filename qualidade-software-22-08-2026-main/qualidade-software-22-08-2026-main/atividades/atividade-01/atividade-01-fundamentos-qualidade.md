@@ -36,7 +36,6 @@
 
 **Um sistema que implementa todas as funcionalidades explicitamente solicitadas pode, ainda assim, apresentar baixa qualidade? Justifiquem utilizando pelo menos uma necessidade implícita identificada pela equipe.**
 
-[Resposta da equipe em até cinco linhas.]
 Favoritar e remover o favorito possui um problema que ao favoritar na página do restaurante, onde ao interagir com o botão de favoritar, favoritara, mas ao fazer a mesma ação não removera o favorito o restaurante na página dele, fazendo o cliente ir aos meus favoritos. Deixando o sistema de favoritos menos fluido e mais desconfortável para o cliente.
 
 ---
