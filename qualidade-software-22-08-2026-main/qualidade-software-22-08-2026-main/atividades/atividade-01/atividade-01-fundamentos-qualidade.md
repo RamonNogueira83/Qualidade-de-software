@@ -28,16 +28,16 @@
 |    Tipo   |                             Necessidade                        | Interessado |                                             Consequência se não for atendida                                                        |
 |-----------|----------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Explícita |                        Fazer pedido                            |   Usuário   |                                              Não conseguira fazer pedidos                                                           |
-| Explícita |             Favoritar e desfavoritar restaurantes              |   Usuário   |                               Não conseguira colocar nos meu favoritos e visualiza-los                                              |
-| Implícita | Favoritar e desfavoritar restaurantes na página do restaurante |   Usuário   |   Ao salvar o restaurante como favorito, não é possível desfazer a ação pelo mesmo botão, somente indo até a pagina meus favoritos, isso prejudica a experiencia do usuário  |
-| Implícita | Mostrar quantos usuários salvaram aquele restaurante           |  Usuário/Restaurante |  Para o usuário fica melhor, pois consegue ver quantos clientes recomendam ou quantos aprovam aquele restaurante. Já pelo lado do restaurante, os proprietarios conseguem saber, como está a imagem publica de seu restaurante dentro do aplicativo |
+| Explícita |             Favoritar e remover o favorito restaurantes              |   Usuário   |                               Não conseguira colocar nos meus favoritos e visualiza-los                                              |
+| Implícita | Favoritar e remover o favorito restaurantes na página do restaurante |   Usuário   |   Ao salvar o restaurante como favorito, não é possível desfazer a ação pelo mesmo botão, somente indo até a página meus favoritos, isso prejudica a experiencia do usuário  |
+| Implícita | Mostrar quantos usuários salvaram aquele restaurante           |  Usuário/Restaurante |  Para o usuário fica melhor, pois consegue ver quantos clientes recomendam ou quantos aprovam aquele restaurante. Já pelo lado do restaurante, os proprietários conseguem saber, como está a imagem pública de seu restaurante dentro do aplicativo |
 
 ### 2.2 Questão sobre os fundamentos da qualidade
 
 **Um sistema que implementa todas as funcionalidades explicitamente solicitadas pode, ainda assim, apresentar baixa qualidade? Justifiquem utilizando pelo menos uma necessidade implícita identificada pela equipe.**
 
 [Resposta da equipe em até cinco linhas.]
-Favoritar e desfavoritar possui um problema que ao favoritar na página do restaurante, onde ao interagir com o botão de favoritar, favoritara, mas ao fazer a mesma ação não desfavoritara o restaurante na página dele, fazendo o cliente ir aos meus favoritos. Deixando o sistema de favoritos menos fluido e mais desconfortável para o cliente.
+Favoritar e remover o favorito possui um problema que ao favoritar na página do restaurante, onde ao interagir com o botão de favoritar, favoritara, mas ao fazer a mesma ação não removera o favorito o restaurante na página dele, fazendo o cliente ir aos meus favoritos. Deixando o sistema de favoritos menos fluido e mais desconfortável para o cliente.
 
 ---
 
@@ -49,7 +49,7 @@ Favoritar e desfavoritar possui um problema que ao favoritar na página do resta
 |-------------|----------------|---------------------|---------------------|-----------|
 | Alessandro Reis da Silva | Fazer pedido | Foi feito o pedido esperando que o cliente aperte finalizar pedido | Ao cliente fazer o pedido o pedido vai na espera da conformação do cliente, depois de confirmar, o pedido é registrado nos meus pedidos no histórico | [ver evidência](qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Pedido.png) |
 | Alessandro Reis da Silva | Meus pedidos | Visualizar o histórico de pedidos | Carregar os históricos de pedidos | [ver evidência](qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Meus_Pedidos.png) |
-| Alessandro Reis da Silva | Favoritos | Favoritar e desfavoritar pela página do restaurante e remover dos favoritos o restaurante pela página meus favoritos | Ao salvar o restaurante como favorito, não é possível desfazer a ação pelo mesmo botão, somente indo até a pagina meus favoritos. | [ver evidência](https://github.com/RamonNogueira83/Qualidade-de-software/raw/refs/heads/main/qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Favoritar.mkv) |
+| Alessandro Reis da Silva | Favoritos | Favoritar e remover o favorito pela página do restaurante e remover dos favoritos o restaurante pela página meus favoritos | Ao salvar o restaurante como favorito, não é possível desfazer a ação pelo mesmo botão, somente indo até a página meus favoritos. | [ver evidência](https://github.com/RamonNogueira83/Qualidade-de-software/raw/refs/heads/main/qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Favoritar.mkv) |
 | Ramon Nogueira | Buscar por culinária | Mostrar todos os restaurantes com a culinária que foi pesquisada pelo usuário, e mostrar as melhores avaliadas em primeiro | ao pesquisar pela culinária desejada o sistema não retornou o resultado esperado, por mais que tenha o filtro de pesquisa, é importante o funcionamento da barra de pesquisa. | [ver evidência](https://github.com/RamonNogueira83/Qualidade-de-software/raw/refs/heads/main/qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Pesquisa.png) |
 
 ---
