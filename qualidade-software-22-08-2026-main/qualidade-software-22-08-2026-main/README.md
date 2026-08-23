@@ -7,7 +7,7 @@ Repositório da equipe para as atividades da Unidade Curricular Qualidade de Sof
 | Nome | Turma | Usuário no GitHub |
 |---|---|---|
 | Alessandro Reis da Silva | ADS5M26-2C | @AlessandroReisDaSilva |
-|      Ramon nogueira      | ADS5M26-2C |        @Ramon          |
+|      Ramon Nogueira      | ADS5M26-2C |        @Ramon          |
 
 
 ## Atividades
