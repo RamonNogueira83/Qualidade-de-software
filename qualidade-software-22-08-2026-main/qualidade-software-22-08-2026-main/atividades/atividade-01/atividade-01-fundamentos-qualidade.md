@@ -4,15 +4,16 @@
 
 ## 1. Identificação
 
-**Turma:** [preencher]  
-**Equipe:** [preencher, se aplicável]  
-**Data:** [dd/mm/aaaa]
+**Turma:** ADS5M26-2C
+**Equipe:** Alessandro e Ramon.  
+**Data:** [22/08/2026]
 
 ### Integrantes
 
-| Nome | Usuário no GitHub |
-|---|---|
-| [nome] | [@usuario] |
+|           Nome           |     Usuário no GitHub    |
+|--------------------------|--------------------------|
+| Alessandro Reis da Silva | [@AlessandroReisDaSilva] |
+|      Ramon nogueira      |         [@Ramon]         |
 
 **Elemento de Competência:** Compreender os fundamentos de qualidade de software e sua aplicação no desenvolvimento de sistemas.
 
@@ -24,11 +25,11 @@
 
 ### 2.1 Necessidades explícitas e implícitas
 
-| Tipo | Necessidade | Interessado | Consequência se não for atendida |
-|---|---|---|---|
-| Explícita | [preencher] | [preencher] | [preencher] |
-| Explícita | [preencher] | [preencher] | [preencher] |
-| Implícita | [preencher] | [preencher] | [preencher] |
+|    Tipo   |                             Necessidade                        | Interessado |                                             Consequência se não for atendida                                                        |
+|-----------|----------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Explícita |                        Fazer pedido                            |   Usuário   |                                              Não conseguira fazer pedidos                                                           |
+| Explícita |             Favoritar e desfavoritar restaurantes              |   Usuário   |                               Não conseguira colocar nos meu favoritos e visualiza-los                                              |
+| Implícita | Favoritar e desfavoritar restaurantes na página do restaurante |   Usuário   |   Ao salvar o restaurante como favorito, não é possível desfazer a ação pelo mesmo botão, somente indo até a pagina meus favoritos, isso prejudica a experiencia do usuário  |
 | Implícita | [preencher] | [preencher] | [preencher] |
 
 ### 2.2 Questão sobre os fundamentos da qualidade
@@ -36,6 +37,7 @@
 **Um sistema que implementa todas as funcionalidades explicitamente solicitadas pode, ainda assim, apresentar baixa qualidade? Justifiquem utilizando pelo menos uma necessidade implícita identificada pela equipe.**
 
 [Resposta da equipe em até cinco linhas.]
+Favoritar e desfavoritar possui um problema que ao favoritar na página do restaurante, onde ao interagir com o botão de favoritar, favoritara, mas ao fazer a mesma ação não desfavoritara o restaurante na página dele, fazendo o cliente ir aos meus favoritos. Deixando o sistema de favoritos menos fluido e mais desconfortável para o cliente.
 
 ---
 
@@ -44,10 +46,10 @@
 > Cada integrante deve explorar uma funcionalidade, realizando uma utilização esperada e uma utilização alternativa, inválida ou incompleta. Acrescentem ou removam linhas conforme o número de integrantes.
 
 | Integrante | Funcionalidade | O que foi realizado | O que foi observado | Evidência |
-|---|---|---|---|---|
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
-| [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
+|-------------|----------------|---------------------|---------------------|-----------|
+| Alessandro Reis da Silva | Fazer pedido | Foi feito o pedido esperando que o cliente aperte finalizar pedido | Ao cliente fazer o pedido o pedido vai na espera da conformação do cliente, depois de confirmar, o pedido é registrado nos meus pedidos no histórico | [ver evidência](qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Pedido.png) |
+| Alessandro Reis da Silva | Meus pedidos | Visualizar o histórico de pedidos | Carregar os históricos de pedidos | [ver evidência](qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Meus_Pedidos.png) |
+| Alessandro Reis da Silva | Favoritos | Favoritar e desfavoritar pela página do restaurante e remover dos favoritos o restaurante pela página meus favoritos | Ao salvar o restaurante como favorito, não é possível desfazer a ação pelo mesmo botão, somente indo até a pagina meus favoritos. | [ver evidência](https://github.com/RamonNogueira83/Qualidade-de-software/raw/refs/heads/main/qualidade-software-22-08-2026-main/qualidade-software-22-08-2026-main/atividades/atividade-01/Evidencias/Favoritar.mkv) |
 | [nome] | [funcionalidade] | [uso esperado e uso alternativo] | [comportamento observado] | [ver evidência](evidencias/nome-do-arquivo.png) |
 
 ---
@@ -57,8 +59,8 @@
 > Cada integrante deve formular um requisito de qualidade relacionado à mesma funcionalidade explorada na Tarefa 2. Acrescentem ou removam linhas conforme o número de integrantes.
 
 | Integrante | Requisito de Qualidade | Característica ou subcaracterística | Justificativa | Como avaliar |
-|---|---|---|---|---|
-| [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
+|------------|------------------------|-------------------------------------|---------------|--------------|
+|  Alessandro Reis da Silva | Sistema de favoritos fluido e funcionamento de fazer e finalizar pedido | Usabilidade | Melhorar a qualidade do sistema | Comparei o sistema de favoritos com as outras plataformas e avalie como funciona os pedidos |
 | [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
 | [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
 | [nome] | [preencher] | [preencher] | [preencher] | [o que observar, medir, contar ou comparar] |
