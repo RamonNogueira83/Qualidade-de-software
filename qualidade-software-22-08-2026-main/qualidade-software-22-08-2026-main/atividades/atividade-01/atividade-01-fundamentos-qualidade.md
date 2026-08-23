@@ -30,7 +30,7 @@
 | Explícita |                        Fazer pedido                            |   Usuário   |                                              Não conseguira fazer pedidos                                                           |
 | Explícita |             Favoritar e desfavoritar restaurantes              |   Usuário   |                               Não conseguira colocar nos meu favoritos e visualiza-los                                              |
 | Implícita | Favoritar e desfavoritar restaurantes na página do restaurante |   Usuário   |   Ao salvar o restaurante como favorito, não é possível desfazer a ação pelo mesmo botão, somente indo até a pagina meus favoritos, isso prejudica a experiencia do usuário  |
-| Implícita | Mostrar quantos usuários salvaram aquele restaurante           |  Usuário/Restaurante|  |  Para o usuário fica melhor, pois consegue ver quantos clientes recomendam ou quantos aprovam aquele restaurante. Já pelo lado do restaurante, os proprietarios conseguem saber, como está a imagem publica de seu restaurante dentro do aplicativo |
+| Implícita | Mostrar quantos usuários salvaram aquele restaurante           |  Usuário/Restaurante |  Para o usuário fica melhor, pois consegue ver quantos clientes recomendam ou quantos aprovam aquele restaurante. Já pelo lado do restaurante, os proprietarios conseguem saber, como está a imagem publica de seu restaurante dentro do aplicativo |
 
 ### 2.2 Questão sobre os fundamentos da qualidade
 
