@@ -34,7 +34,6 @@
 
 **A qualidade do LocalEats deve ser responsabilidade exclusiva do profissional de QA? Justifiquem.**
 
-[Resposta da equipe em até cinco linhas.]
 Análise dos problemas apresentados mostra como a falta de teste por parte do desenvolvedor, falta de conhecimento dos integrantes sobre teste e como o desenvolvedor deve testar também, e a falta de um responsável podem tornar o trabalho mais cansativo e menos produtivo. O correto é definir o responsável para aprovar versões recentes e ensinar e instruir os integrantes que não são QA a fazerem testes de aceitação e testes de sistema.
 ---
 
