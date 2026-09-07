@@ -24,8 +24,8 @@
 
 | Problema identificado | Possível consequência para o produto ou para a equipe |
 |---|---|
-| [preencher] | [preencher] |
-| [preencher] | [preencher] |
+| funcionalidades chegam aos usuários com defeitos | Falta de testes do QA e do desenvolvedor pode afetar negativamente a reputação, fazendo perder os clientes, além de deixar o trabalho mais exaustivo. |
+| Alguns integrantes acreditam que somente o QA deve testar | [preencher] |
 | [preencher] | [preencher] |
 
 ### 2.2 Responsabilidade pela qualidade
