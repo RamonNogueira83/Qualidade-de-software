@@ -43,7 +43,7 @@ Análise dos problemas apresentados mostra como a falta de teste por parte do de
 
 | Integrante | Papel analisado | Responsabilidades relacionadas à qualidade | Competências técnicas | Competências comportamentais |
 |---|---|---|---|---|
-| desenvolvedor | [papel] | [preencher] | [preencher] | [preencher] |
+| Alessandro Reis da Silva | Desenvolvedor | Desenvolver e testar o backend e frontend | Full Stack e QA | Organização, visão analítica de crítica sobre as funcionalidades |
 | Ramon | [DevOps] | [Automatizar e acompanhar os processos de integração, testes e implantação do sistema; configurar e manter os ambientes de desenvolvimento e produção; monitorar a aplicação após sua disponibilização; colaborar na identificação de problemas relacionados à infraestrutura e garantir que as versões sejam disponibilizadas de forma segura e confiável.] | [Conhecimento em Git e CI/CD; automação de deploy; Docker e containers; monitoramento de aplicações; gerenciamento de ambientes e conhecimentos básicos de infraestrutura e segurança.] | [Comunicação; trabalho em equipe; organização; pensamento crítico; capacidade de resolução de problemas; colaboração entre desenvolvimento e operações.] |
 
 ---
