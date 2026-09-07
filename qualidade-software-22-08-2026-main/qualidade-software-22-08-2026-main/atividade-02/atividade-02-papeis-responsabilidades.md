@@ -60,7 +60,7 @@ Utilizem:
 - **I:** informado sobre o resultado.
 
 | Atividade de qualidade | Papel 1 | Papel 2 |
-|---|:---:|:---:|:---:|:---:|
+|---|:---:|:---:|
 | Definir critérios de aceitação | A | ? |
 | Revisar requisitos | R | ? |
 | Implementar a funcionalidade | R | ? |
