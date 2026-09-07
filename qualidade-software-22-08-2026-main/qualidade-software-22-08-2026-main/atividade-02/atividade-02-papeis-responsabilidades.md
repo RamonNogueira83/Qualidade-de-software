@@ -59,17 +59,17 @@ Utilizem:
 - **C:** consultado antes da execução ou decisão;
 - **I:** informado sobre o resultado.
 
-| Atividade de qualidade | Papel 1 | Papel 2 | Papel 3 | Papel 4 |
+| Atividade de qualidade | Papel 1 | Papel 2 |
 |---|:---:|:---:|:---:|:---:|
-| Definir critérios de aceitação | A | A | A | A |
-| Revisar requisitos | C | R | I | A |
-| Implementar a funcionalidade | R | R | R | R |
-| Revisar o código | R | C | R | A |
-| Criar testes unitários | R | C | R | C |
-| Planejar e executar testes do sistema | C | R | R | A |
-| Registrar e acompanhar defeitos | C | R | I | A |
-| Priorizar a correção dos defeitos | R | A | R | A |
-| Aprovar a disponibilização da versão | A | A | A | A |
+| Definir critérios de aceitação | A | ? |
+| Revisar requisitos | R | ? |
+| Implementar a funcionalidade | R | ? |
+| Revisar o código | R | ? |
+| Criar testes unitários | R | ? |
+| Planejar e executar testes do sistema | R | ? |
+| Registrar e acompanhar defeitos | R | ? |
+| Priorizar a correção dos defeitos | R | ? |
+| Aprovar a disponibilização da versão | A | ? |
 
 ### 4.1 Lacuna ou conflito encontrado
 
