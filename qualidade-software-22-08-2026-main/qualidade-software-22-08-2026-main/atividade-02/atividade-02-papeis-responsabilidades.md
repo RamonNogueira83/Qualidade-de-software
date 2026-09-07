@@ -24,16 +24,18 @@
 
 | Problema identificado | Possível consequência para o produto ou para a equipe |
 |---|---|
+| Problema identificado | Possível consequência para o produto ou para a equipe |
+|---|---|
 | funcionalidades chegam aos usuários com defeitos | Falta de testes do QA e do desenvolvedor pode afetar negativamente a reputação, fazendo perder os clientes, além de deixar o trabalho mais exaustivo. |
-| Alguns integrantes acreditam que somente o QA deve testar | [preencher] |
-| [preencher] | [preencher] |
+| Alguns integrantes acreditam que somente o QA deve testar | Falta de conhecimento sobre QA pode levar os integrantes a não testarem e deixar o site cheio de defeitos, perdendo a reputação do serviço. |
+| não está claro quem pode aprovar a disponibilização de uma nova versão | A falta de definição de um responsável para aprovação torna o trabalho em equipe bagunçado, fazendo-o ser menos produtivo e mais cansativo. |
 
 ### 2.2 Responsabilidade pela qualidade
 
 **A qualidade do LocalEats deve ser responsabilidade exclusiva do profissional de QA? Justifiquem.**
 
 [Resposta da equipe em até cinco linhas.]
-
+Análise dos problemas apresentados mostra como a falta de teste por parte do desenvolvedor, falta de conhecimento dos integrantes sobre teste e como o desenvolvedor deve testar também, e a falta de um responsável podem tornar o trabalho mais cansativo e menos produtivo. O correto é definir o responsável para aprovar versões recentes e ensinar e instruir os integrantes que não são QA a fazerem testes de aceitação e testes de sistema.
 ---
 
 ## 3. Tarefa 2: Papéis e competências
@@ -68,11 +70,11 @@ Utilizem:
 | Revisar requisitos | C | R | I | A |
 | Implementar a funcionalidade | R | R | R | R |
 | Revisar o código | R | C | R | A |
-| Criar testes unitários |  |  |  |  |
-| Planejar e executar testes do sistema |  |  |  |  |
-| Registrar e acompanhar defeitos |  |  |  |  |
-| Priorizar a correção dos defeitos |  |  |  |  |
-| Aprovar a disponibilização da versão |  |  |  |  |
+| Criar testes unitários | R | C | R | C |
+| Planejar e executar testes do sistema | C | R | R | A |
+| Registrar e acompanhar defeitos | C | R | I | A |
+| Priorizar a correção dos defeitos | R | A | R | A |
+| Aprovar a disponibilização da versão | A | A | A | A |
 
 ### 4.1 Lacuna ou conflito encontrado
 
