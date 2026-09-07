@@ -42,10 +42,12 @@
 
 | Integrante | Papel analisado | Responsabilidades relacionadas à qualidade | Competências técnicas | Competências comportamentais |
 |---|---|---|---|---|
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
-| [nome] | [papel] | [preencher] | [preencher] | [preencher] |
+| responsável pelo produto | [papel] | [preencher] | [preencher] | [preencher] |
+| analista de sistemas ou de negócio | [papel] | [preencher] | [preencher] | [preencher] |
+| desenvolvedor | [papel] | [preencher] | [preencher] | [preencher] |
+| QA ou analista de qualidade | [papel] | [preencher] | [preencher] | [preencher] |
+| DevOps | [papel] | [preencher] | [preencher] | [preencher] |
+| liderança técnica | [papel] | [preencher] | [preencher] | [preencher] |
 
 ---
 
