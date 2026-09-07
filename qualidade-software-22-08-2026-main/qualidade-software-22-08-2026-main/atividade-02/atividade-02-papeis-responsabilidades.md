@@ -74,10 +74,10 @@ Utilizem:
 ### 4.1 Lacuna ou conflito encontrado
 
 **Lacuna ou conflito:**  
-[Indiquem uma atividade sem responsabilidade clara, excessivamente concentrada ou com responsabilidades conflitantes.]
+[Pode ocorrer conflito de funções durante o desenvolvimento do produto quando as responsabilidades não estão claramente definidas. Por exemplo, mais de um integrante pode realizar a mesma atividade, como revisar requisitos ou aprovar uma funcionalidade, enquanto outras atividades podem ficar sem um responsável definido. Também pode haver conflito na aprovação da disponibilização de uma nova versão, caso mais de um papel tente tomar a decisão final.]
 
 **Consequência:**  
-[Expliquem o possível impacto para o produto ou para a equipe.]
+[A falta de definição clara das responsabilidades pode causar retrabalho, atrasos no desenvolvimento, conflitos entre os integrantes e atividades importantes sem acompanhamento. Além disso, uma versão com defeitos pode ser disponibilizada aos usuários ou a equipe pode demorar para decidir quem deve corrigir e aprovar determinada funcionalidade.]
 
 ### 4.2 Práticas de QA recomendadas
 
@@ -91,10 +91,10 @@ Utilizem:
 ## 5. Uso de inteligência artificial
 
 **Ferramenta utilizada:**  
-[Informar a ferramenta ou registrar “não utilizada”.]
+[LanguageTool.]
 
 **Como foi utilizada:**  
-[Descrever brevemente.]
+[Corretor ortográfico.]
 
 **Como as respostas foram verificadas:**  
 [Descrever brevemente.]
