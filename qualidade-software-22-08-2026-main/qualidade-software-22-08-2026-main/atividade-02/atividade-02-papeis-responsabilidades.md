@@ -61,15 +61,15 @@ Utilizem:
 
 | Atividade de qualidade | Papel 1 | Papel 2 |
 |---|:---:|:---:|
-| Definir critérios de aceitação | A | ? |
-| Revisar requisitos | R | ? |
-| Implementar a funcionalidade | R | ? |
-| Revisar o código | R | ? |
-| Criar testes unitários | R | ? |
-| Planejar e executar testes do sistema | R | ? |
-| Registrar e acompanhar defeitos | R | ? |
-| Priorizar a correção dos defeitos | R | ? |
-| Aprovar a disponibilização da versão | A | ? |
+| Definir critérios de aceitação | A | I  |
+| Revisar requisitos | R | I |
+| Implementar a funcionalidade | R | I |
+| Revisar o código | R | I |
+| Criar testes unitários | R | I |
+| Planejar e executar testes do sistema | R | C |
+| Registrar e acompanhar defeitos | R | C |
+| Priorizar a correção dos defeitos | R | I |
+| Aprovar a disponibilização da versão | A | R |
 
 ### 4.1 Lacuna ou conflito encontrado
 
@@ -84,7 +84,7 @@ Utilizem:
 | Prática recomendada | Problema que ajuda a resolver | Papéis envolvidos |
 |---|---|---|
 | Quando terminar de programar fazer os testes unitários | Visualiza os erros mais cedo e os corrige, evitando futuros grandes problemas | Desenvolvedor |
-| [preencher] | [preencher] | [preencher] |
+| Automatizar os testes e a implantação da aplicação utilizando processos de CI/CD | Ajuda a identificar falhas durante a integração e evita que versões com problemas sejam disponibilizadas aos usuários | DevOps |
 
 ---
 
