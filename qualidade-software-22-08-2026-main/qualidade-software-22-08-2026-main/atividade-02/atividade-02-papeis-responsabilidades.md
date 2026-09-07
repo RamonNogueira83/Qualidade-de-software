@@ -64,10 +64,10 @@ Utilizem:
 
 | Atividade de qualidade | Papel 1 | Papel 2 | Papel 3 | Papel 4 |
 |---|:---:|:---:|:---:|:---:|
-| Definir critérios de aceitação |  |  |  |  |
-| Revisar requisitos |  |  |  |  |
-| Implementar a funcionalidade |  |  |  |  |
-| Revisar o código |  |  |  |  |
+| Definir critérios de aceitação | A | A | A | A |
+| Revisar requisitos | C | R | I | A |
+| Implementar a funcionalidade | R | R | R | R |
+| Revisar o código | R | C | R | A |
 | Criar testes unitários |  |  |  |  |
 | Planejar e executar testes do sistema |  |  |  |  |
 | Registrar e acompanhar defeitos |  |  |  |  |
