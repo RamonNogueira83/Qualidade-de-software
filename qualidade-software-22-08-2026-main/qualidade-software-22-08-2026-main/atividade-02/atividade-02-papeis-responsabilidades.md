@@ -1,21 +1,18 @@
 # Atividade 2: Organização da Qualidade no LocalEats
 
 > Substituam os campos entre colchetes pelas respostas da equipe e removam as instruções antes da entrega.
-
 ## 1. Identificação
 
-**Turma:** [preencher]  
-**Equipe:** [preencher, se aplicável]  
-**Data:** [dd/mm/aaaa]
+**Turma:** ADS5M26-2C
+**Equipe:** Alessandro e Ramon.  
+**Data:** 07/09/2026
 
 ### Integrantes
 
-| Nome | Usuário no GitHub |
-|---|---|
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
+|           Nome           |     Usuário no GitHub    |
+|--------------------------|--------------------------|
+| Alessandro Reis da Silva | @AlessandroReisDaSilva |
+|      Ramon nogueira      |         @Ramonnogueira83         |
 
 **Elemento de Competência:** Identificar papéis, responsabilidades e competências relacionadas às atividades de qualidade e testes.
 
