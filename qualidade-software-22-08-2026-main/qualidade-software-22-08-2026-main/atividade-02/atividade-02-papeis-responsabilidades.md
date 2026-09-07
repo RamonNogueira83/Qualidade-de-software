@@ -43,12 +43,8 @@ Análise dos problemas apresentados mostra como a falta de teste por parte do de
 
 | Integrante | Papel analisado | Responsabilidades relacionadas à qualidade | Competências técnicas | Competências comportamentais |
 |---|---|---|---|---|
-| responsável pelo produto | [papel] | [preencher] | [preencher] | [preencher] |
-| analista de sistemas ou de negócio | [papel] | [preencher] | [preencher] | [preencher] |
 | desenvolvedor | [papel] | [preencher] | [preencher] | [preencher] |
-| QA ou analista de qualidade | [papel] | [preencher] | [preencher] | [preencher] |
 | DevOps | [papel] | [preencher] | [preencher] | [preencher] |
-| liderança técnica | [papel] | [preencher] | [preencher] | [preencher] |
 
 ---
 
