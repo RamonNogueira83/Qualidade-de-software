@@ -83,7 +83,7 @@ Utilizem:
 
 | Prática recomendada | Problema que ajuda a resolver | Papéis envolvidos |
 |---|---|---|
-| [preencher] | [preencher] | [preencher] |
+| Quando terminar de programar fazer os testes unitários | Visualiza os erros mais cedo e os corrige, evitando futuros grandes problemas | Desenvolvedor |
 | [preencher] | [preencher] | [preencher] |
 
 ---
