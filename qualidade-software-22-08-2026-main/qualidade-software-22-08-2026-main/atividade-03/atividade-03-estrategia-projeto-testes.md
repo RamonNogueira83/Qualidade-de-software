@@ -4,18 +4,16 @@
 
 ## 1. Identificação
 
-**Turma:** [preencher]  
-**Equipe:** [preencher, se aplicável]  
-**Data:** [dd/mm/aaaa]
+**Turma:** ADS5M26-2C
+**Equipe:** Alessandro e Ramon.  
+**Data:** 07/09/2026
 
 ### Integrantes
 
-| Nome | Usuário no GitHub |
-|---|---|
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
-| [nome] | [@usuario] |
+|           Nome           |     Usuário no GitHub    |
+|--------------------------|--------------------------|
+| Alessandro Reis da Silva | @AlessandroReisDaSilva |
+|      Ramon nogueira      |         @Ramonnogueira83         |
 
 **Elemento de Competência:** Planejar e projetar testes selecionando técnicas adequadas.
 
