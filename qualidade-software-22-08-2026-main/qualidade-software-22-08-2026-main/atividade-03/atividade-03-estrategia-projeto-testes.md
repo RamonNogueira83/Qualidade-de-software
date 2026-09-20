@@ -81,7 +81,7 @@
 | ID | Integrante | Funcionalidade | Risco | Consequência | Probabilidade | Impacto | Prioridade | Justificativa |
 |---|---|---|---|---|:---:|:---:|:---:|---|
 | R01 | [Alessandro] | [Favoritar e Desfavoritar] | [Não registrar o favoritos ou o desfavorito] | [Cliente perde acesso aos restaurantes favoritados pelo mau funcionamento do sistema de favoritos] | [Baixa] | [Médio] | [Baixa] | [Se o sistema de favoritos não funcionar, pode acabar com a experiência do usuário, fazendo o usuário usar o serviço da concorrência] |
-| R02 | [Ramon] | [Buscar restaurantes por culinária] | [O sistema apresentar restaurantes que não correspondem à culinária pesquisada.] | [O usuário poderá encontrar resultados incorretos e ter dificuldade para localizar restaurantes da culinária desejada.] | [Média] | [Alto] | [Alta] | [A busca é utilizada para localizar restaurantes específicos, portanto resultados incorretos podem comprometer diretamente a utilização da funcionalidade.] |
+| R02 | [Ramon] | [Buscar restaurantes por culinária] | [O sistema apresentar restaurantes que não correspondem à culinária pesquisada.] | [O usuário poderá encontrar resultados incorretos e ter dificuldade para localizar restaurantes da culinária desejada.] | [Média] | [Alto] | [Média] | [A busca é utilizada para localizar restaurantes específicos, portanto resultados incorretos podem comprometer diretamente a utilização da funcionalidade.] |
 
 > Acrescentem as linhas necessárias e mantenham identificadores únicos: R01, R02, R03 etc.
 
