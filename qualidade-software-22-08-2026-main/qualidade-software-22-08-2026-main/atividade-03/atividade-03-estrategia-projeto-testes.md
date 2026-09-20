@@ -80,8 +80,8 @@
 
 | ID | Integrante | Funcionalidade | Risco | Consequência | Probabilidade | Impacto | Prioridade | Justificativa |
 |---|---|---|---|---|:---:|:---:|:---:|---|
-| R01 | [nome] | [funcionalidade] | [o que pode dar errado] | [quem será afetado e como] | [Baixa/Média/Alta] | [Baixo/Médio/Alto] | [Baixa/Média/Alta] | [preencher] |
-| R02 | [nome] | [funcionalidade] | [o que pode dar errado] | [quem será afetado e como] | [Baixa/Média/Alta] | [Baixo/Médio/Alto] | [Baixa/Média/Alta] | [preencher] |
+| R01 | [Alessandro] | [Favoritar e Desfavoritar] | [Não registrar o favoritos ou o desfavorito] | [Cliente perde acesso aos restaurantes favoritados pelo mau funcionamento do sistema de favoritos] | [Baixa] | [Médio] | [Média] | [Se o sistema de favoritos não funcionar, pode acabar com a experiência do usuário, fazendo o usuário usar o serviço da concorrência] |
+| R02 | [Ramon] | [funcionalidade] | [o que pode dar errado] | [quem será afetado e como] | [Baixa/Média/Alta] | [Baixo/Médio/Alto] | [Baixa/Média/Alta] | [preencher] |
 
 > Acrescentem as linhas necessárias e mantenham identificadores únicos: R01, R02, R03 etc.
 
