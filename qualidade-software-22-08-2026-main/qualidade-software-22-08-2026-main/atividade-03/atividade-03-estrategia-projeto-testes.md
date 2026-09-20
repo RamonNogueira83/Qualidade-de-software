@@ -66,9 +66,9 @@
 
 | Critério | Definição da equipe |
 |---|---|
-| Entrada | [O que precisa estar disponível antes do início dos testes?] |
-| Saída | [O que precisa ser atendido para considerar os testes concluídos?] |
-| Suspensão | [Em quais situações os testes deverão ser interrompidos?] |
+| Entrada | [Aplicação LocalEats disponível, acesso à internet, usuário cadastrado e restaurantes disponíveis para realizar a busca por culinária e os testes de favoritar e desfavoritar.] |
+| Saída | [Todos os casos de teste planejados para as funcionalidades de busca por culinária e de favoritar/desfavoritar estiverem especificados e relacionados aos respectivos riscos e técnicas.] |
+| Suspensão | [Indisponibilidade da aplicação, impossibilidade de realizar login ou ausência de restaurantes e dados necessários para executar os casos de teste.] |
 
 ---
 
