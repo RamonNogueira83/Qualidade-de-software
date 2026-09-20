@@ -34,9 +34,7 @@
 | Integrante | Funcionalidade incluída | O que será verificado |
 |---|---|---|
 | [Ramon] | [filtrar restaurantes por especialidade] | [Todas as opções que o Usuário pode filtrar para encontrar o restaurante desejado ] |
-| [Alessandro] | [favoritar e desfavoritar restaurantes] | [preencher] |
-| [nome] | [funcionalidade] | [preencher] |
-| [nome] | [funcionalidade] | [preencher] |
+| [Alessandro] | [favoritar e desfavoritar restaurantes] | [Todas as formas de favoritar e desfavoritar nas páginas do Local Eats] |
 
 > Acrescentem ou removam linhas conforme o número de integrantes.
 
