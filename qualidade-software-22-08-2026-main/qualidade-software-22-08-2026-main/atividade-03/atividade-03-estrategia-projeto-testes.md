@@ -100,8 +100,8 @@
 [Transição de estados foi escolhida pois o sistema de favoritos é um valor booleano e de listas.]
 
 **Aplicação da técnica:**  
-|---|---|---|---|---|:---:|:---:|:---:|---|
 | Regra | [Tá logado] | [Foi favoritado] | [Resultado] |
+|:---|:---:|:---:|:---|
 | Regra | [Sim] | [Não] | [Não foi registrado no favorito] |
 | Regra | [Não] | [Sim] | [Requer entrar na conta] |
 | Regra | [Sim] | [Sim] | [Foi registrado o favorito] |
@@ -120,23 +120,23 @@
 [Transição de estados foi escolhida pois o sistema de favoritos é um valor booleano e de listas.]
 
 **Aplicação da técnica:**  
-┌─────────┐
-│Tá logado│
-└─────────┘
-↓ ┌─────────┐
-↓→│Deslogado│
-↓ └─────────┘
-┌───────────────────────────┐
-│Tá na página Meus Favoritos│
-└───────────────────────────┘
-↓
-┌────────────────────────┐
-│Desfavoritar restaurante│
-└────────────────────────┘
-↓
-┌─────────┐
-│Concluido│
-└─────────┘
+┌─────────┐<br>
+│Tá logado│<br>
+└─────────┘<br>
+↓ ┌─────────┐<br>
+↓→│Deslogado│<br>
+↓ └─────────┘<br>
+┌───────────────────────────┐<br>
+│Tá na página Meus Favoritos│<br>
+└───────────────────────────┘<br>
+↓<br>
+┌────────────────────────┐<br>
+│Desfavoritar restaurante│<br>
+└────────────────────────┘<br>
+↓<br>
+┌─────────┐<br>
+│Concluido│<br>
+└─────────┘<br>
 
 **Casos derivados:** [CT02]
 
@@ -194,23 +194,23 @@
 [Valor verdadeiro no favorito do restaurante]
 
 **Passos:**
-┌─────────┐
-│Tá logado│
-└─────────┘
-↓ ┌─────────┐
-↓→│Deslogado│
-↓ └─────────┘
-┌────────────────────────┐
-│Tá página do restaurante│
-└────────────────────────┘
-↓
-┌─────────────────────┐
-│Favoritar restaurante│
-└─────────────────────┘
-↓
-┌─────────┐
-│Concluido│
-└─────────┘
+┌─────────┐<br>
+│Tá logado│<br>
+└─────────┘<br>
+↓ ┌─────────┐<br>
+↓→│Deslogado│<br>
+↓ └─────────┘<br>
+┌────────────────────────┐<br>
+│Tá página do restaurante│<br>
+└────────────────────────┘<br>
+↓<br>
+┌─────────────────────┐<br>
+│Favoritar restaurante│<br>
+└─────────────────────┘<br>
+↓<br>
+┌─────────┐<br>
+│Concluido│<br>
+└─────────┘<br>
 
 **Resultado esperado:**  
 [Tirar o restaurante dos registros dos Meus Favoritos]
