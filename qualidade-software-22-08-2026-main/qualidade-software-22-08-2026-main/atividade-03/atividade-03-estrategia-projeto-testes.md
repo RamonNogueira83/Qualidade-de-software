@@ -48,10 +48,10 @@
 
 | Item | Decisão da equipe | Justificativa |
 |---|---|---|
-| Níveis de teste | [preencher] | [preencher] |
-| Tipos de teste | [preencher] | [preencher] |
-| Perspectiva caixa-preta ou caixa-branca | [preencher] | [preencher] |
-| Técnicas de teste | [preencher] | [preencher] |
+| Níveis de teste | [Teste de sistema] | [As funcionalidades serão analisadas no funcionamento completo da aplicação, considerando a interação do usuário com o LocalEats.] |
+| Tipos de teste | [Teste funcional] | [O objetivo é verificar se a busca por culinária e as ações de favoritar e desfavoritar apresentam os comportamentos esperados de acordo com suas funcionalidades.] |
+| Perspectiva caixa-preta ou caixa-branca | [Caixa-preta] | [Os testes serão elaborados a partir das entradas fornecidas pelo usuário e dos resultados apresentados pelo sistema, sem analisar o código interno da aplicação.] |
+| Técnicas de teste | [Particionamento de equivalência e transição de estados] | [O particionamento de equivalência pode ser utilizado para analisar diferentes entradas na busca por culinária, enquanto a transição de estados é adequada para verificar as mudanças entre restaurante não favoritado e favoritado.] |
 
 ### 2.4 Ambiente e responsabilidades
 
