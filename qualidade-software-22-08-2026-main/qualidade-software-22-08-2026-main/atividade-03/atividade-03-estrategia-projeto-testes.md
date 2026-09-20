@@ -91,22 +91,58 @@
 
 #### Análise do integrante 1
 
-**Integrante:** [nome]  
-**Funcionalidade:** [preencher]  
+**Integrante:** [Alessandro]  
+**Funcionalidade:** [Favoritar]  
 **Risco relacionado:** [R01]  
-**Técnica escolhida:** [particionamento de equivalência, análise de valor limite, tabela de decisão ou transição de estados]
+**Técnica escolhida:** [tabela de decisão]
 
 **Por que a técnica foi escolhida:**  
-[Expliquem por que a técnica é adequada à regra ou ao risco analisado.]
+[Transição de estados foi escolhida pois o sistema de favoritos é um valor booleano e de listas.]
 
 **Aplicação da técnica:**  
-[Apresentem as classes, limites, combinações ou transições identificadas. Utilizem uma tabela ou lista quando necessário.]
+|---|---|---|---|---|:---:|:---:|:---:|---|
+| Regra | [Tá logado] | [Foi favoritado] | [Resultado] |
+| Regra | [Sim] | [Não] | [Não foi registrado no favorito] |
+| Regra | [Não] | [Sim] | [Requer entrar na conta] |
+| Regra | [Sim] | [Sim] | [Foi registrado o favorito] |
+| Regra | [Não] | [Não] | [Requer entrar na conta] |
 
-**Casos derivados:** [CT01 e CT02]
+**Casos derivados:** [CT01]
 
 #### Análise do integrante 2
 
-**Integrante:** [nome]  
+**Integrante:** [Alessandro]  
+**Funcionalidade:** [Desfavoritar]  
+**Risco relacionado:** [R02]  
+**Técnica escolhida:** [transição de estados]
+
+**Por que a técnica foi escolhida:**  
+[Transição de estados foi escolhida pois o sistema de favoritos é um valor booleano e de listas.]
+
+**Aplicação da técnica:**  
+┌─────────┐
+│Tá logado│
+└─────────┘
+↓ ┌─────────┐
+↓→│Deslogado│
+↓ └─────────┘
+┌───────────────────────────┐
+│Tá na página Meus Favoritos│
+└───────────────────────────┘
+↓
+┌────────────────────────┐
+│Desfavoritar restaurante│
+└────────────────────────┘
+↓
+┌─────────┐
+│Concluido│
+└─────────┘
+
+**Casos derivados:** [CT02]
+
+#### Análise do integrante 3
+
+**Integrante:** [Ramon]  
 **Funcionalidade:** [preencher]  
 **Risco relacionado:** [R02]  
 **Técnica escolhida:** [preencher]
@@ -119,6 +155,21 @@
 
 **Casos derivados:** [preencher]
 
+#### Análise do integrante 4
+
+**Integrante:** [Ramon]  
+**Funcionalidade:** [preencher]  
+**Risco relacionado:** [R01]  
+**Técnica escolhida:** [particionamento de equivalência, análise de valor limite, tabela de decisão ou transição de estados]
+
+**Por que a técnica foi escolhida:**  
+[Expliquem por que a técnica é adequada à regra ou ao risco analisado.]
+
+**Aplicação da técnica:**  
+[Apresentem as classes, limites, combinações ou transições identificadas. Utilizem uma tabela ou lista quando necessário.]
+
+**Casos derivados:** [CT01 e CT02]
+
 > Repitam ou removam a seção de análise conforme o número de integrantes.
 
 ---
@@ -129,31 +180,81 @@
 
 > No trabalho individual, elabore três casos. No trabalho em equipe, cada integrante deve elaborar pelo menos dois casos relacionados à própria funcionalidade.
 
-### CT01: [Título do caso]
+### CT01: [Favoritar]
 
-**Integrante responsável:** [nome]  
-**Funcionalidade:** [preencher]  
-**Risco ou requisito relacionado:** [R01 ou descrição do requisito]  
-**Técnica utilizada:** [preencher]
+**Integrante responsável:** [Alessandro]  
+**Funcionalidade:** [Favoritar]  
+**Risco ou requisito relacionado:** [R01]  
+**Técnica utilizada:** [transição de estados]
 
 **Pré-condição:**  
-[O que precisa existir ou estar preparado antes da execução.]
+[Criação de conta ou a existencia de uma conta]
 
 **Dados de entrada:**  
-[Valores ou dados necessários. Caso não sejam necessários, registrem “Não se aplica”.]
+[Valor verdadeiro no favorito do restaurante]
 
 **Passos:**
-
-1. [Primeiro passo.]
-2. [Segundo passo.]
-3. [Terceiro passo.]
+┌─────────┐
+│Tá logado│
+└─────────┘
+↓ ┌─────────┐
+↓→│Deslogado│
+↓ └─────────┘
+┌────────────────────────┐
+│Tá página do restaurante│
+└────────────────────────┘
+↓
+┌─────────────────────┐
+│Favoritar restaurante│
+└─────────────────────┘
+↓
+┌─────────┐
+│Concluido│
+└─────────┘
 
 **Resultado esperado:**  
-[Comportamento observável que indicará que o teste passou.]
+[Tirar o restaurante dos registros dos Meus Favoritos]
 
 ---
 
-### CT02: [Título do caso]
+### CT02: [Desfavoritar]
+
+**Integrante responsável:** [Alessandro]  
+**Funcionalidade:** [Desfavoritar]  
+**Risco ou requisito relacionado:** [R02]  
+**Técnica utilizada:** [transição de estados]
+
+**Pré-condição:**  
+[Criação de conta ou a existencia de uma conta]
+
+**Dados de entrada:**  
+[Valor verdadeiro no favorito do restaurante]
+
+**Passos:**
+┌─────────┐
+│Tá logado│
+└─────────┘
+↓ ┌─────────┐
+↓→│Deslogado│
+↓ └─────────┘
+┌───────────────────────────┐
+│Tá na página Meus Favoritos│
+└───────────────────────────┘
+↓
+┌────────────────────────┐
+│Desfavoritar restaurante│
+└────────────────────────┘
+↓
+┌─────────┐
+│Concluido│
+└─────────┘
+
+**Resultado esperado:**  
+[Registrar o restaurante nos Meus Favoritos]
+
+---
+
+### CT03: [Título do caso]
 
 **Integrante responsável:** [nome]  
 **Funcionalidade:** [preencher]  
