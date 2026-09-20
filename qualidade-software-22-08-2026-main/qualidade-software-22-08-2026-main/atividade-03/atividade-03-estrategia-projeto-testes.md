@@ -57,10 +57,10 @@
 
 | Item | Definição |
 |---|---|
-| Ambiente necessário | [preencher] |
-| Responsáveis pelo planejamento | [preencher] |
-| Responsáveis pela especificação dos casos | [preencher] |
-| Responsáveis pela futura execução | [preencher] |
+| Ambiente necessário | [Aplicação LocalEats disponível no navegador, computador ou dispositivo com acesso à internet, conta de usuário cadastrada e restaurantes disponíveis para realizar as buscas e testes de favoritos.] |
+| Responsáveis pelo planejamento | [Ramon e Alessandro.] |
+| Responsáveis pela especificação dos casos | [Ramon será responsável pela especificação dos casos relacionados à busca de restaurantes por culinária, e Alessandro será responsável pelos casos relacionados a favoritar e desfavoritar restaurantes.] |
+| Responsáveis pela futura execução | [Ramon e Alessandro, cada um responsável pela execução dos casos relacionados à sua respectiva funcionalidade.] |
 
 ### 2.5 Critérios
 
