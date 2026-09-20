@@ -42,7 +42,7 @@
 
 | Funcionalidade não incluída | Justificativa |
 |---|---|
-| [preencher] | [preencher] |
+| [Consultar pedidos] | [Já está funcionando corretamente] |
 
 ### 2.3 Abordagem
 
