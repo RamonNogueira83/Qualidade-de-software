@@ -25,7 +25,7 @@
 
 ### 2.1 Objetivo dos testes
 
-[Expliquem brevemente o que a equipe pretende verificar com os testes.]
+[Verificar se o LocalEats permite que os usuários encontrem restaurantes de acordo com a culinária desejada e gerenciem corretamente seus restaurantes favoritos, garantindo que as funcionalidades de busca por culinária e de favoritar e desfavoritar restaurantes apresentem resultados e comportamentos esperados nas diferentes situações de uso.]
 
 ### 2.2 Escopo
 
@@ -33,8 +33,8 @@
 
 | Integrante | Funcionalidade incluída | O que será verificado |
 |---|---|---|
-| [nome] | [funcionalidade] | [preencher] |
-| [nome] | [funcionalidade] | [preencher] |
+| [Ramon] | [filtrar restaurantes por especialidade] | [Todas as opções que o Usuário pode filtrar para encontrar o restaurante desejado ] |
+| [Alessandro] | [favoritar e desfavoritar restaurantes] | [preencher] |
 | [nome] | [funcionalidade] | [preencher] |
 | [nome] | [funcionalidade] | [preencher] |
 
