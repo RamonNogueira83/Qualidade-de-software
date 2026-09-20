@@ -231,23 +231,23 @@
 [Valor verdadeiro no favorito do restaurante]
 
 **Passos:**
-┌─────────┐
-│Tá logado│
-└─────────┘
-↓ ┌─────────┐
-↓→│Deslogado│
-↓ └─────────┘
-┌───────────────────────────┐
-│Tá na página Meus Favoritos│
-└───────────────────────────┘
-↓
-┌────────────────────────┐
-│Desfavoritar restaurante│
-└────────────────────────┘
-↓
-┌─────────┐
-│Concluido│
-└─────────┘
+┌─────────┐<br>
+│Tá logado│<br>
+└─────────┘<br>
+↓ ┌─────────┐<br>
+↓→│Deslogado│<br>
+↓ └─────────┘<br>
+┌───────────────────────────┐<br>
+│Tá na página Meus Favoritos│<br>
+└───────────────────────────┘<br>
+↓<br>
+┌────────────────────────┐<br>
+│Desfavoritar restaurante│<br>
+└────────────────────────┘<br>
+↓<br>
+┌─────────┐<br>
+│Concluido│<br>
+└─────────┘<br>
 
 **Resultado esperado:**  
 [Registrar o restaurante nos Meus Favoritos]
