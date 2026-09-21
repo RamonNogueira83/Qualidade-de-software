@@ -265,7 +265,8 @@
 
 | Integrante | Funcionalidade | Risco ou requisito | Técnica utilizada | Casos de teste |
 |---|---|---|---|---|
-| [nome] | [funcionalidade] | [R01 ou requisito] | [técnica] | [CT01 e CT02] |
+| [nome] | [funcionalidade] | [R01] | [Tabela de decisão] | [CT01] |
+| [nome] | [funcionalidade] | [R01] | [Transição de estados] | [CT02] |
 | [Ramon] | [Buscar restaurantes por culinária] | [R01] | [Particionamento de equivalência] | [CT03 e CT04] |
 
 > Acrescentem as linhas necessárias. Verifiquem se todos os riscos selecionados possuem casos de teste relacionados.
@@ -275,13 +276,14 @@
 ## 5. Uso de inteligência artificial
 
 **Ferramenta utilizada:**  
-[Informar a ferramenta ou registrar “não utilizada”.]
+[Gemini e LanguageTool]
 
 **Como foi utilizada:**  
-[Descrever brevemente.]
+[O Gemini foi usado para corrigir a transição de estados feita com caracteres especiais e também as tabelas quebradas no .md.
+O LanguageTool foi usado para corrigir o texto.]
 
 **Uma sugestão que precisou ser alterada ou rejeitada:**  
-[Descrever brevemente. Caso nenhuma sugestão tenha sido rejeitada, expliquem como as sugestões foram analisadas criticamente.]
+[Foram alteradas estruturas de tabelas, gráficos quebrados ou escritos com erros de português.]
 
 **Como as respostas foram verificadas:**  
-[Descrever brevemente.]
+[Não teve verificação do texto para saber se estamos certos ou não, mas usamos IA para corrigir textos e estruturas que, na prévia, ficavam quebradas.]
