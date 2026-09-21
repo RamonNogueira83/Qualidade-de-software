@@ -92,8 +92,8 @@
 #### Análise do integrante 1
 
 **Integrante:** [Alessandro]  
-**Funcionalidade:** [Favoritar]  
-**Risco relacionado:** [R01]  
+**Funcionalidade:** [Favoritar e desfavoritar restaurantes]  
+**Risco relacionado:** [R02]  
 **Técnica escolhida:** [tabela de decisão]
 
 **Por que a técnica foi escolhida:**  
@@ -107,70 +107,26 @@
 | Regra | [Sim] | [Sim] | [Foi registrado o favorito] |
 | Regra | [Não] | [Não] | [Requer entrar na conta] |
 
-**Casos derivados:** [CT01]
+**Casos derivados:** [CT01 e CT02]
 
 #### Análise do integrante 2
 
-**Integrante:** [Alessandro]  
-**Funcionalidade:** [Desfavoritar]  
-**Risco relacionado:** [R02]  
-**Técnica escolhida:** [transição de estados]
-
-**Por que a técnica foi escolhida:**  
-[Transição de estados foi escolhida pois o sistema de favoritos é um valor booleano e de listas.]
-
-**Aplicação da técnica:**  
-┌─────────┐<br>
-│Tá logado│<br>
-└─────────┘<br>
-↓ ┌─────────┐<br>
-↓→│Deslogado│<br>
-↓ └─────────┘<br>
-┌───────────────────────────┐<br>
-│Tá na página Meus Favoritos│<br>
-└───────────────────────────┘<br>
-↓<br>
-┌────────────────────────┐<br>
-│Desfavoritar restaurante│<br>
-└────────────────────────┘<br>
-↓<br>
-┌─────────┐<br>
-│Concluido│<br>
-└─────────┘<br>
-
-**Casos derivados:** [CT02]
-
-#### Análise do integrante 3
-
 **Integrante:** [Ramon]  
-**Funcionalidade:** [preencher]  
-**Risco relacionado:** [R02]  
-**Técnica escolhida:** [preencher]
-
-**Por que a técnica foi escolhida:**  
-[preencher]
-
-**Aplicação da técnica:**  
-[preencher]
-
-**Casos derivados:** [preencher]
-
-#### Análise do integrante 4
-
-**Integrante:** [Ramon]  
-**Funcionalidade:** [preencher]  
+**Funcionalidade:** [Buscar restaurantes por culinária]  
 **Risco relacionado:** [R01]  
-**Técnica escolhida:** [particionamento de equivalência, análise de valor limite, tabela de decisão ou transição de estados]
+**Técnica escolhida:** [Particionamento de equivalência]
 
 **Por que a técnica foi escolhida:**  
-[Expliquem por que a técnica é adequada à regra ou ao risco analisado.]
+[A técnica de particionamento de equivalência foi escolhida porque permite dividir as entradas da busca por culinária em diferentes classes, considerando situações em que a pesquisa deve retornar restaurantes e situações em que não deve apresentar resultados correspondentes.]
 
 **Aplicação da técnica:**  
-[Apresentem as classes, limites, combinações ou transições identificadas. Utilizem uma tabela ou lista quando necessário.]
+| Classe | Entrada | Resultado esperado |
+|:---|:---|:---|
+| Classe válida | Culinária existente, como “Pizza” | O sistema deve apresentar restaurantes correspondentes à culinária pesquisada. |
+| Classe inválida | Culinária sem restaurantes correspondentes | O sistema não deve apresentar restaurantes que não correspondam à pesquisa e deve informar que não foram encontrados resultados. |
 
-**Casos derivados:** [CT01 e CT02]
+**Casos derivados:** [CT03 e CT04]
 
-> Repitam ou removam a seção de análise conforme o número de integrantes.
 
 ---
 
@@ -254,27 +210,52 @@
 
 ---
 
-### CT03: [Título do caso]
+### CT03: [Buscar por restaurante por uma culinária existente]
 
-**Integrante responsável:** [nome]  
-**Funcionalidade:** [preencher]  
-**Risco ou requisito relacionado:** [preencher]  
-**Técnica utilizada:** [preencher]
+**Integrante responsável:** [Ramon]  
+**Funcionalidade:** [Buscar restaurantes por culinária]  
+**Risco ou requisito relacionado:** [R01 , o sistema apresentar restaurantes que não correspondem a culinária pesquisada]  
+**Técnica utilizada:** [Particionamento de equivalência]
 
 **Pré-condição:**  
-[preencher]
+[O usuário deve estar com o LocalEats disponivel no navegador e deve existir pelo menos um restaurante cadastrado para a culinária que será pesquisada]
 
 **Dados de entrada:**  
-[preencher]
+[Culinária: "Pizza"]
 
 **Passos:**
 
-1. [Primeiro passo.]
-2. [Segundo passo.]
-3. [Terceiro passo.]
+1. [Acessar o LocalEats e realizar login na conta do usuário.]
+2. [Acessar a funcionalidade de busca e informar uma culinária existente, como “Pizza”.]
+3. [Realizar a busca e verificar os restaurantes apresentados.]
 
 **Resultado esperado:**  
-[preencher]
+[O sistema deve apresentar restaurantes que correspondam à culinária pesquisada, permitindo que o usuário encontre opções relacionadas à busca realizada.]
+
+---
+---
+
+### CT04: [Buscar restaurantes por uma culinária sem correspondência]
+
+**Integrante responsável:** [Ramon]  
+**Funcionalidade:** [Buscar restaurantes por culinária]  
+**Risco ou requisito relacionado:** [R01 — O sistema apresentar restaurantes que não correspondem à culinária pesquisada.]  
+**Técnica utilizada:** [Particionamento de equivalência]
+
+**Pré-condição:**  
+[O usuário deve estar com o LocalEats disponível no navegador e deve existir pelo menos um restaurante cadastrado no sistema, mas nenhum restaurante deve corresponder à culinária pesquisada.]
+
+**Dados de entrada:**  
+[Culinária: “Culinária inexistente”.]
+
+**Passos:**
+
+1. [Acessar o LocalEats e realizar login na conta do usuário.]
+2. [Acessar a funcionalidade de busca e informar uma culinária que não possua restaurantes correspondente]
+3. [Realizar a busca e verificar os resultados apresentados pelo sistema.]
+
+**Resultado esperado:**  
+[O sistema não deve apresentar restaurantes que não correspondam à culinária pesquisada e deve informar ao usuário que não foram encontrados restaurantes correspondentes à busca.]
 
 ---
 
@@ -285,7 +266,7 @@
 | Integrante | Funcionalidade | Risco ou requisito | Técnica utilizada | Casos de teste |
 |---|---|---|---|---|
 | [nome] | [funcionalidade] | [R01 ou requisito] | [técnica] | [CT01 e CT02] |
-| [nome] | [funcionalidade] | [R02 ou requisito] | [técnica] | [CT03 e CT04] |
+| [Ramon] | [Buscar restaurantes por culinária] | [R01] | [Particionamento de equivalência] | [CT03 e CT04] |
 
 > Acrescentem as linhas necessárias. Verifiquem se todos os riscos selecionados possuem casos de teste relacionados.
 
