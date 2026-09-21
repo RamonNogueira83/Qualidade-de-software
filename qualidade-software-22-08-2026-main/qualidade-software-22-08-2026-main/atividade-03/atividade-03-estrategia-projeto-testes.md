@@ -265,8 +265,7 @@
 
 | Integrante | Funcionalidade | Risco ou requisito | Técnica utilizada | Casos de teste |
 |---|---|---|---|---|
-| [nome] | [funcionalidade] | [R01] | [Tabela de decisão] | [CT01] |
-| [nome] | [funcionalidade] | [R01] | [Transição de estados] | [CT02] |
+| [Alessandro] | [Favoritar e Desfavoritar] | [R01 e R02] | [Tabela de decisão e Transição de estados] | [CT01 e CT02] |
 | [Ramon] | [Buscar restaurantes por culinária] | [R01] | [Particionamento de equivalência] | [CT03 e CT04] |
 
 > Acrescentem as linhas necessárias. Verifiquem se todos os riscos selecionados possuem casos de teste relacionados.
